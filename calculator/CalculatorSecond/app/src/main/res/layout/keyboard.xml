@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="@color/darkGray"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:id="@+id/buttonReset"
+            android:text="@string/buttonReset"/>
+
+        <Button
+            style="@style/cmdButton"
+            android:id="@+id/buttonDelete"
+            android:text="@string/buttonDelete"/>
+
+        <Button
+            style="@style/cmdButton"
+            android:id="@+id/buttonPercent"
+            android:text="@string/buttonPercent"/>
+
+        <Button
+            style="@style/cmdButton"
+            android:id="@+id/buttonShares"
+            android:text="@string/buttonShares"/>
+
+     </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/numberButton"
+            android:id="@+id/button9"
+            android:text="@string/button9"
+            android:layout_row="0"
+            android:layout_column="0"
+            />
+
+        <Button
+            style="@style/numberButton"
+            android:id="@+id/button8"
+            android:text="@string/button8"
+            android:layout_row="0"
+            android:layout_column="1"
+            />
+
+        <Button
+            style="@style/numberButton"
+            android:id="@+id/button7"
+            android:text="@string/button7"
+            android:layout_row="0"
+            android:layout_column="2"
+            />
+
+        <Button
+            style="@style/cmdButton"
+            android:id="@+id/buttonMultiply"
+            android:text="@string/buttonMultiply"
+            android:layout_row="0"
+            android:layout_column="3"
+            />
+
+        <Button
+            style="@style/numberButton"
+            android:id="@+id/button4"
+            android:text="@string/button4"
+            android:layout_row="1"
+            android:layout_column="0"
+            />
+
+        <Button
+            style="@style/numberButton"
+            android:id="@+id/button5"
+            android:text="@string/button5"
+            android:layout_row="1"
+            android:layout_column="1"
+            />
+
+        <Button
+            style="@style/numberButton"
+            android:id="@+id/button6"
+            android:text="@string/button6"
+            android:layout_row="1"
+            android:layout_column="2"
+            />
+
+        <Button
+            style="@style/cmdButton"
+            android:id="@+id/buttonMinus"
+            android:text="@string/buttonMinus"
+            android:layout_row="1"
+            android:layout_column="3"
+            />
+
+        <Button
+            style="@style/numberButton"
+            android:id="@+id/button1"
+            android:text="@string/button1"
+            android:layout_row="2"
+            android:layout_column="0"
+            />
+
+        <Button
+            style="@style/numberButton"
+            android:id="@+id/button2"
+            android:text="@string/button2"
+            android:layout_row="2"
+            android:layout_column="1"
+            />
+
+        <Button
+            style="@style/numberButton"
+            android:id="@+id/button3"
+            android:text="@string/button3"
+            android:layout_row="2"
+            android:layout_column="2"
+            />
+
+        <Button
+            style="@style/cmdButton"
+            android:id="@+id/buttonPlus"
+            android:text="@string/buttonPlus"
+            android:layout_row="2"
+            android:layout_column="3"
+            />
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/cmdButton"
+            android:id="@+id/button0"
+            android:text="@string/button0"/>
+
+        <Button
+            style="@style/cmdButton"
+            android:id="@+id/buttonPoint"
+            android:text="@string/buttonPoint"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/brightOrange"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_columnWeight="2"
+            android:id="@+id/buttonEquals"
+            android:text="@string/buttonEquals"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
