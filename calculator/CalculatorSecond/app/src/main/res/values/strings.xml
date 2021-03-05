@@ -16,7 +16,7 @@
     <string name="button9">9</string>
 
     <string name="buttonPercent">%</string>
-    <string name="buttonShares">/</string>
+    <string name="buttonShares">÷</string>
     <string name="buttonMultiply">*</string>
     <string name="buttonEquals">=</string>
     <string name="buttonPoint">.</string>
@@ -24,6 +24,6 @@
     <string name="buttonPlus">+</string>
     <string name="buttonMinus">-</string>
     <string name="buttonSecondBracket">)</string>
-    <string name="buttonReset">Clear</string>
-    <string name="buttonDelete">del.</string>
+    <string name="buttonReset">C</string>
+    <string name="buttonDelete">DEL</string>
 </resources>
